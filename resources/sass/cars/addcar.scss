@@ -1,0 +1,495 @@
+@import './default';
+.add-cars {
+    font-size: 14px;
+    .controlling_car {
+        padding: 30px 0;
+        border-bottom: 1px solid #dbdbdb;
+        .controlling_course_left {
+            h3 {
+                font-weight: 600;
+                font-size: 15px;
+                letter-spacing: 0.1px;
+                margin-bottom: 20px;
+                color: limegreen;
+            }
+            p {
+                line-height: 19px;
+                margin-top: 13px;
+                color: rgba(71, 80, 94, 0.55);
+                font-size: 14px;
+                font-weight: 500;
+                letter-spacing: 0.5px;
+                span {
+                    margin-top: 15px;
+                }
+            }
+        }
+        .controlling_car_right {
+            background: #f5f6f7;
+            padding: 40px;
+            text-align: center;
+            button {
+                margin-right: 20px;
+                border-radius: 50px;
+                min-width: 150px;
+                width: auto;
+                margin-bottom: 10px;
+                text-align: center;
+                width: 150px;
+                height: 40px;
+                line-height: 35px;
+                font-weight: 300;
+                border-radius: 20px 0;
+                font-size: 13px;
+                background: #fff;
+                color: limegreen;
+                cursor: pointer;
+                border: 1px solid limegreen;
+                -webkit-transition: all 0.3s ease-in-out;
+                transition: all 0.3s ease-in-out;
+                i {
+                    margin-right: 5px;
+                }
+            }
+        }
+    }
+    .form_add_car {
+        form {
+            &>div {
+                border-bottom: 1px solid #dbdbdb;
+                display: block;
+                height: auto;
+                padding: 80px 20px 40px;
+                position: relative;
+                &.car_information_details {
+                    .car_information_left {
+                        h3 {
+                            font-weight: 600;
+                            font-size: 15px;
+                            letter-spacing: 0.1px;
+                            margin-bottom: 20px;
+                            color: limegreen;
+                        }
+                        p {
+                            line-height: 19px;
+                            margin-top: 13px;
+                            color: rgba(71, 80, 94, 0.55);
+                            font-size: 14px;
+                            font-weight: 500;
+                            letter-spacing: 0.5px;
+                            span {
+                                margin-top: 15px;
+                            }
+                        }
+                    }
+                    .car_information_right {
+                        background: #f5f6f7;
+                        padding: 0 40px;
+                        &>div {
+                            width: 100%;
+                            margin-bottom: 10px;
+                            label {
+                                display: block;
+                                margin-bottom: 18px;
+                                color: limegreen;
+                                font-size: 14px;
+                            }
+                            input {
+                                font-size: 13px;
+                                position: relative;
+                                width: 100%;
+                                border: 1px solid limegreen;
+                                padding: 9px 10px;
+                                padding-left: 20px;
+                                border-radius: 20px;
+                                outline: 0;
+                                margin-bottom: 8px;
+                            }
+                            select {
+                                font-size: 14px;
+                                position: relative;
+                                width: 100%;
+                                border: 1px solid limegreen;
+                                padding: 7px 10px;
+                                padding-left: 20px;
+                                border-radius: 20px;
+                                outline: 0;
+                                margin-bottom: 9px;
+                            }
+                        }
+                    }
+                    .form_course_descri_content {
+                        margin-top: 30px;
+                        background: #fff;
+                        border: 1px solid limegreen;
+                        border-radius: 30px;
+                        position: relative;
+                        overflow: hidden;
+                        .form_course_descri_content_head {
+                            text-align: center;
+                            padding-top: 13px;
+                            font-weight: 600;
+                            color: limegreen;
+                            height: 49px;
+                            border-radius: 4px 4px 0 0;
+                            font-size: 13px;
+                            -webkit-transition: 0.1s all ease-in-out;
+                            transition: 0.1s all ease-in-out;
+                            cursor: pointer;
+                        }
+                        .form_course_descri {
+                            justify-content: center;
+                            text-align: center;
+                            max-height: 0;
+                            transition: all 0.3s cubic-bezier(0, 1, 0.5, 1);
+                            &.active {
+                                transition: 0.3s all ease-in;
+                                max-height: 1000px;
+                                overflow: hidden;
+                            }
+                            &>div {
+                                padding: 20px;
+                                &>div {
+                                    border: 1px solid limegreen !important;
+                                    min-height: 350px !important;
+                                    .cke_top {
+                                        border-bottom: 1px solid limegreen !important;
+                                    }
+                                    span.cke_bottom {
+                                        display: none !important;
+                                    }
+                                    span.cke_toolbar_last {
+                                        display: none !important;
+                                    }
+                                    a.cke_dialog_ui_button_ok {
+                                        background: limegreen !important;
+                                        border: 1px solid limegreen !important;
+                                    }
+                                    .cke_reset_all,
+                                    .cke_reset_all *,
+                                    .cke_reset_all a,
+                                    .cke_reset_all textarea {
+                                        font-weight: 600 !important;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                &.car_information_branding {
+                    .car_information_branding_left {
+                        h3 {
+                            font-weight: 600;
+                            font-size: 15px;
+                            letter-spacing: 0.1px;
+                            margin-bottom: 20px;
+                            color: limegreen;
+                        }
+                        p {
+                            line-height: 19px;
+                            margin-top: 13px;
+                            color: rgba(71, 80, 94, 0.55);
+                            font-size: 14px;
+                            font-weight: 500;
+                            letter-spacing: 0.5px;
+                            span {
+                                margin-top: 15px;
+                            }
+                        }
+                    }
+                    .car_information_branding_right {
+                        padding: 0 40px;
+                        .information_branding_right_image {
+                            padding: 20px;
+                            box-shadow: 2px 21px 10px 0px rgba(0, 0, 0, 0.1);
+                            margin-bottom: 50px;
+                            &>div {
+                                margin-bottom: 20px;
+                                &.box_uploads {
+                                    min-height: 200px;
+                                    border: 2px dashed #ccc;
+                                    border-radius: 10px;
+                                    text-align: center;
+                                    margin: auto;
+                                    text-align: center;
+                                    &.hover {
+                                        background: #fff;
+                                    }
+                                    h1 {
+                                        margin-top: 60px;
+                                        font-size: 24px;
+                                        color: #8b9da0;
+                                    }
+                                    p {
+                                        font-size: 75%;
+                                        color: #777;
+                                    }
+                                    button {
+                                        border-radius: 20px;
+                                        border: 1px solid limegreen;
+                                        color: limegreen;
+                                        font-size: 14px;
+                                        &:hover {
+                                            color: #fff;
+                                        }
+                                    }
+                                }
+                                &.box_upload_content {
+                                    margin-top: 40px;
+                                    .image_item {
+                                        margin-top: 10px;
+                                        background: #343a40;
+                                        border-radius: 20px;
+                                        padding: 8px 10px;
+                                        .row {
+                                            .image_info {
+                                                margin-top: 5px;
+                                                color: limegreen;
+                                                span {
+                                                    font-size: 13px;
+                                                    &:last-child {
+                                                        float: right;
+                                                    }
+                                                }
+                                            }
+                                            .image_info_progress {
+                                                span {
+                                                    margin-top: 2px;
+                                                    &:first-child {
+                                                        width: 100%;
+                                                        padding: 2px 0;
+                                                        margin: 5px;
+                                                        .progress {
+                                                            border-radius: 20px;
+                                                            div {
+                                                                background-color: limegreen !important;
+                                                            }
+                                                        }
+                                                    }
+                                                    &:last-child {
+                                                        width: 30px;
+                                                        cursor: pointer;
+                                                        line-height: 25px;
+                                                        height: 25px;
+                                                        background: limegreen;
+                                                        color: #fff;
+                                                        text-align: center;
+                                                        border-radius: 15px;
+                                                        i {
+                                                            &.fa-spinner {
+                                                                animation: rotating .3s ease-in-out infinite;
+                                                            }
+                                                            @keyframes rotating {
+                                                                0% {
+                                                                    transform: rotate(0deg);
+                                                                }
+                                                                100% {
+                                                                    transform: rotate(360deg);
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .information_branding_right_video {
+                            margin-bottom: 30px;
+                            .branding_video_container {
+                                position: relative;
+                                min-height: 250px;
+                                width: 100%;
+                                margin: auto;
+                                overflow: hidden;
+                                text-align: center;
+                                border: 1px solid limegreen;
+                                line-height: 250px;
+                                background: #292c44;
+                                a {
+                                    position: relative;
+                                    z-index: 1;
+                                    border-radius: 50%;
+                                    box-shadow: 0 10px 25px 0 rgba(33, 31, 94, 0.55);
+                                    -webkit-transition: all -3s ease;
+                                    transition: all -3s ease;
+                                    text-align: center;
+                                    line-height: 45px;
+                                    i {
+                                        color: #fff;
+                                        margin-left: 5px;
+                                    }
+                                    &::before {
+                                        content: "";
+                                        position: absolute;
+                                        z-index: 0;
+                                        left: 50%;
+                                        top: 50%;
+                                        transform: translateX(-50%) translateY(-50%);
+                                        display: block;
+                                        width: 60px;
+                                        height: 60px;
+                                        background: limegreen;
+                                        border-radius: 50%;
+                                        animation: pulse-border 1500ms ease-out infinite;
+                                    }
+                                    &::after {
+                                        content: "";
+                                        position: absolute;
+                                        z-index: -1;
+                                        left: 50%;
+                                        top: 50%;
+                                        -webkit-transform: translateX(-50%) translateY(-50%);
+                                        transform: translateX(-50%) translateY(-50%);
+                                        display: block;
+                                        width: 60px;
+                                        height: 60px;
+                                        background: limegreen;
+                                        border-radius: 50%;
+                                        -webkit-transition: all 200ms;
+                                        transition: all 200ms;
+                                    }
+                                    @keyframes pulse-border {
+                                        0% {
+                                            transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
+                                            opacity: 1;
+                                        }
+                                        100% {
+                                            transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
+                                            opacity: 0;
+                                        }
+                                    }
+                                }
+                            }
+                            .branding_video_details {
+                                margin: 20px 0;
+                                .branding_video_details_upload {
+                                    margin-bottom: 10px;
+                                    text-align: center;
+                                    width: 150px;
+                                    height: 40px;
+                                    line-height: 40px;
+                                    border-radius: 20px 0;
+                                    font-size: 13px;
+                                    background: #fff;
+                                    color: limegreen;
+                                    cursor: pointer;
+                                    border: 1px solid limegreen;
+                                    -webkit-transition: all 0.3s ease-in-out;
+                                    transition: all 0.3s ease-in-out;
+                                    &:hover {
+                                        background: limegreen;
+                                        color: #fff;
+                                    }
+                                    span {
+                                        display: block;
+                                    }
+                                }
+                                .half_opaque {
+                                    opacity: 0.5;
+                                    text-align: left;
+                                    span,
+                                    ul {
+                                        font-size: 13px;
+                                        list-style: outside;
+                                        list-style-position: inside;
+                                        padding-left: 10px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                &.course_push_button {
+                    padding-bottom: 30px;
+                    padding: 0 0 60px;
+                    button {
+                        border-radius: 20px;
+                        border: 1px solid limegreen;
+                        color: limegreen;
+                        font-size: 14px;
+                        transition: all .3s ease-in-out;
+                        span {
+                            &:first-child {
+                                transition: all .3s ease-in-out;
+                                transform: rotate(0deg);
+                                display: inline-block;
+                                animation: rotating .3s ease-in-out infinite;
+                            }
+                            @keyframes rotating {
+                                0% {
+                                    transform: rotate(0deg);
+                                }
+                                100% {
+                                    transform: rotate(360deg);
+                                }
+                            }
+                        }
+                        &:hover {
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.modal {
+    .modal-content {
+        border-radius: 20px 0;
+        .modal-header {
+            border: 0;
+            h5 {
+                font-size: 16px;
+                color: limegreen;
+                margin-left: 15px;
+            }
+            button {
+                padding-top: 8px;
+                font-size: 30px;
+                opacity: 1;
+                color: limegreen;
+            }
+        }
+        .video_url_content {
+            position: relative;
+            margin-top: 25px;
+            width: 100%;
+            input {
+                outline: 0;
+                height: 40px;
+                width: 100%;
+                border: 1px solid limegreen;
+                font-size: 14px;
+                padding-left: 20px;
+                border-radius: 20px;
+            }
+        }
+        .modal-footer {
+            border: 0;
+            padding-bottom: 50px;
+            justify-content: center;
+            button {
+                text-align: center;
+                width: 150px;
+                height: 40px;
+                border-radius: 20px 0;
+                border-radius: 20px 0;
+                margin-right: 5px;
+                font-size: 14px;
+                background: #fff;
+                color: limegreen;
+                cursor: pointer;
+                border: 1px solid limegreen;
+                transition: all 0.3s ease-in-out;
+                &:hover {
+                    color: #fff;
+                    background: limegreen;
+                }
+            }
+        }
+    }
+}

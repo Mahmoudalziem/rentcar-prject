@@ -1,0 +1,203 @@
+.signup_section {
+  background: #fff;
+  width: 100%;
+  height: auto;
+  padding: 63px;
+  background-attachment: fixed;
+}
+
+.signup_section .signup_content {
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+  background: #fff;
+}
+
+.signup_section .signup_content .signup_page {
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.signup_section .signup_content .signup_page::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background: rgba(125, 214, 121, 0.4);
+}
+
+.signup_section .signup_content .signup_page > img {
+  opacity: 1;
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-blend-mode: screen;
+  background-position: -2%;
+}
+
+.signup_section .signup_content .signup_page svg {
+  position: absolute;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+}
+
+.signup_section .signup_content .signup_page svg.first {
+  transform: rotate(-180deg);
+  bottom: -6px;
+}
+
+.signup_section .signup_content .signup_page svg.second {
+  right: 0;
+  top: -8px;
+}
+
+.signup_section .signup_content .signup_details {
+  padding: 70px;
+}
+
+.signup_section .signup_content .signup_details .login_details_signup {
+  text-align: center;
+  font-size: 16px;
+  align-items: center;
+}
+
+.signup_section .signup_content .signup_details .login_details_signup div {
+  margin-top: 20px;
+}
+
+.signup_section .signup_content .signup_details .login_details_signup div span.site_logo {
+  position: relative;
+  width: 80px;
+  height: 60px;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.signup_section .signup_content .signup_details .login_details_signup div span.site_logo a img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.signup_section .signup_content .signup_details .login_details_signup div span:nth-child(2) {
+  opacity: 0.8;
+  font-size: 15px;
+}
+
+.signup_section .signup_content .signup_details .login_details_signup div span:last-child {
+  margin-left: 10px;
+}
+
+.signup_section .signup_content .signup_details .login_details_signup div span:last-child a {
+  position: relative;
+  padding: 6px 20px;
+  color: limegreen;
+  border: 1px solid limegreen;
+  background: transparent;
+  border-radius: 20px;
+  font-size: 12px;
+  transition: all 0.3s ease-in-out;
+  overflow: hidden;
+}
+
+.signup_section .signup_content .signup_details .login_details_signup div span:last-child a:hover {
+  background: limegreen;
+  color: #fff;
+  border: 1px solid limegreen;
+  border-left: 0;
+}
+
+.signup_section .signup_content .signup_details .signup_head {
+  margin-top: 40px;
+}
+
+.signup_section .signup_content .signup_details .signup_head h3 {
+  font-size: 20px;
+  color: limegreen;
+}
+
+.signup_section .signup_content .signup_details .signup_head p {
+  font-size: 13px;
+  line-height: 23px;
+  opacity: 0.7;
+}
+
+.signup_section .signup_content .signup_details form {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.signup_section .signup_content .signup_details form .group_input {
+  position: relative;
+  margin-top: 25px;
+  width: 100%;
+}
+
+.signup_section .signup_content .signup_details form .group_input input {
+  height: 40px;
+  width: 100%;
+  border: 1px solid limegreen;
+  font-size: 14px;
+  padding-left: 60px;
+}
+
+.signup_section .signup_content .signup_details form .group_input i {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40px;
+  height: 100%;
+  text-align: center;
+  line-height: 40px;
+  background: limegreen;
+  color: #fff;
+}
+
+.signup_section .signup_content .signup_details form .group_forget_remember {
+  width: 100%;
+  margin-top: 30px;
+  font-size: 15px;
+  opacity: 0.8;
+}
+
+.signup_section .signup_content .signup_details form .group_forget_remember div:last-child {
+  float: right;
+}
+
+.signup_section .signup_content .signup_details form .group_forget_remember div:last-child a {
+  color: limegreen;
+}
+
+.signup_section .signup_content .signup_details form .form_submit_button {
+  align-items: center;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.signup_section .signup_content .signup_details form .form_submit_button button {
+  padding: 5px 25px;
+  border-radius: 20px 0;
+  outline: 0;
+  display: inline-block;
+  color: limegreen;
+  font-size: 15px;
+  font-weight: 600;
+  border: 1px solid limegreen;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.signup_section .signup_content .signup_details form .form_submit_button button:hover {
+  color: #fff;
+}
+

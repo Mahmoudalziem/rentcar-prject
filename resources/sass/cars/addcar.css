@@ -1,0 +1,414 @@
+@import url(/opt/lampp/htdocs/rentCar/resources/sass/admin/adminlte.min.css);
+@import url(/opt/lampp/htdocs/rentCar/resources/sass/admin/OverlayScrollbars.min.css);
+li::after {
+  display: none !important;
+}
+
+.wrapper .main-header {
+  background: limegreen !important;
+}
+
+.wrapper .main-header .navbar-nav li a {
+  font-size: 14px;
+  color: #fff !important;
+}
+
+.wrapper .main-header .navbar-nav li ul {
+  top: 45px;
+}
+
+.wrapper .main-header .navbar-nav li ul li {
+  padding: 20px !important;
+}
+
+.wrapper .main-header .navbar-nav li ul li a {
+  font-size: 13px;
+  border-radius: 20px;
+  color: limegreen !important;
+}
+
+.wrapper .main-header .navbar-nav li ul li a:hover {
+  background-color: limegreen !important;
+  color: #fff !important;
+}
+
+.wrapper aside.main-sidebar .brand-link img {
+  width: 34px !important;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.wrapper aside.main-sidebar .brand-link span {
+  font-size: 18px;
+}
+
+.wrapper aside.main-sidebar .sidebar ul {
+  text-transform: unset !important;
+}
+
+.wrapper aside.main-sidebar .sidebar ul li.nav-header {
+  text-transform: capitalize !important;
+}
+
+.wrapper aside.main-sidebar .sidebar ul li.nav-item a {
+  text-transform: capitalize !important;
+  border-radius: 20px;
+  margin-left: 5px;
+}
+
+.add-houses {
+  font-size: 14px;
+}
+
+.add-houses .controlling_house {
+  padding: 30px 0;
+  border-bottom: 1px solid #dbdbdb;
+}
+
+.add-houses .controlling_house .controlling_course_left h3 {
+  font-weight: 600;
+  font-size: 15px;
+  letter-spacing: 0.1px;
+  margin-bottom: 20px;
+  color: limegreen;
+}
+
+.add-houses .controlling_house .controlling_course_left p {
+  line-height: 19px;
+  margin-top: 13px;
+  color: rgba(71, 80, 94, 0.55);
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+.add-houses .controlling_house .controlling_course_left p span {
+  margin-top: 15px;
+}
+
+.add-houses .controlling_house .controlling_house_right {
+  background: #f5f6f7;
+  padding: 40px;
+  text-align: center;
+}
+
+.add-houses .controlling_house .controlling_house_right button {
+  margin-right: 20px;
+  border-radius: 50px;
+  min-width: 150px;
+  width: auto;
+  margin-bottom: 10px;
+  text-align: center;
+  width: 150px;
+  height: 40px;
+  line-height: 35px;
+  font-weight: 300;
+  border-radius: 20px 0;
+  font-size: 13px;
+  background: #fff;
+  color: limegreen;
+  cursor: pointer;
+  border: 1px solid limegreen;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.add-houses .controlling_house .controlling_house_right button i {
+  margin-right: 5px;
+}
+
+.add-houses .form_add_house form > div {
+  border-bottom: 1px solid #dbdbdb;
+  display: block;
+  height: auto;
+  padding: 80px 20px 40px;
+  position: relative;
+}
+
+.add-houses .form_add_house form > div.house_information_details .house_information_left h3 {
+  font-weight: 600;
+  font-size: 15px;
+  letter-spacing: 0.1px;
+  margin-bottom: 20px;
+  color: limegreen;
+}
+
+.add-houses .form_add_house form > div.house_information_details .house_information_left p {
+  line-height: 19px;
+  margin-top: 13px;
+  color: rgba(71, 80, 94, 0.55);
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+.add-houses .form_add_house form > div.house_information_details .house_information_left p span {
+  margin-top: 15px;
+}
+
+.add-houses .form_add_house form > div.house_information_details .house_information_right {
+  background: #f5f6f7;
+  padding: 0 40px;
+}
+
+.add-houses .form_add_house form > div.house_information_details .house_information_right > div {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.add-houses .form_add_house form > div.house_information_details .house_information_right > div label {
+  display: block;
+  margin-bottom: 18px;
+  color: limegreen;
+  font-size: 14px;
+}
+
+.add-houses .form_add_house form > div.house_information_details .house_information_right > div input {
+  font-size: 13px;
+  position: relative;
+  width: 100%;
+  border: 1px solid limegreen;
+  padding: 9px 10px;
+  padding-left: 20px;
+  border-radius: 20px;
+  outline: 0;
+  margin-bottom: 8px;
+}
+
+.add-houses .form_add_house form > div.house_information_details .house_information_right > div select {
+  font-size: 14px;
+  position: relative;
+  width: 100%;
+  border: 1px solid limegreen;
+  padding: 7px 10px;
+  padding-left: 20px;
+  border-radius: 20px;
+  outline: 0;
+  margin-bottom: 9px;
+}
+
+.add-houses .form_add_house form > div.house_information_details .form_course_descri_content {
+  margin-top: 30px;
+  background: #fff;
+  border: 1px solid limegreen;
+  border-radius: 30px;
+  position: relative;
+  overflow: hidden;
+}
+
+.add-houses .form_add_house form > div.house_information_details .form_course_descri_content .form_course_descri_content_head {
+  text-align: center;
+  padding-top: 13px;
+  font-weight: 600;
+  color: limegreen;
+  height: 49px;
+  border-radius: 4px 4px 0 0;
+  font-size: 13px;
+  -webkit-transition: 0.1s all ease-in-out;
+  transition: 0.1s all ease-in-out;
+  cursor: pointer;
+}
+
+.add-houses .form_add_house form > div.house_information_details .form_course_descri_content .form_course_descri {
+  justify-content: center;
+  text-align: center;
+  max-height: 0;
+  transition: all 0.3s cubic-bezier(0, 1, 0.5, 1);
+}
+
+.add-houses .form_add_house form > div.house_information_details .form_course_descri_content .form_course_descri.active {
+  transition: 0.3s all ease-in;
+  max-height: 1000px;
+  overflow: hidden;
+}
+
+.add-houses .form_add_house form > div.house_information_details .form_course_descri_content .form_course_descri > div {
+  padding: 20px;
+}
+
+.add-houses .form_add_house form > div.house_information_details .form_course_descri_content .form_course_descri > div > div {
+  border: 1px solid limegreen !important;
+  min-height: 350px !important;
+}
+
+.add-houses .form_add_house form > div.house_information_details .form_course_descri_content .form_course_descri > div > div .cke_top {
+  border-bottom: 1px solid limegreen !important;
+}
+
+.add-houses .form_add_house form > div.house_information_details .form_course_descri_content .form_course_descri > div > div span.cke_bottom {
+  display: none !important;
+}
+
+.add-houses .form_add_house form > div.house_information_details .form_course_descri_content .form_course_descri > div > div span.cke_toolbar_last {
+  display: none !important;
+}
+
+.add-houses .form_add_house form > div.house_information_details .form_course_descri_content .form_course_descri > div > div a.cke_dialog_ui_button_ok {
+  background: limegreen !important;
+  border: 1px solid limegreen !important;
+}
+
+.add-houses .form_add_house form > div.house_information_details .form_course_descri_content .form_course_descri > div > div .cke_reset_all,
+.add-houses .form_add_house form > div.house_information_details .form_course_descri_content .form_course_descri > div > div .cke_reset_all *,
+.add-houses .form_add_house form > div.house_information_details .form_course_descri_content .form_course_descri > div > div .cke_reset_all a,
+.add-houses .form_add_house form > div.house_information_details .form_course_descri_content .form_course_descri > div > div .cke_reset_all textarea {
+  font-weight: 600 !important;
+}
+
+.add-houses .form_add_house form > div.house_information_branding .house_information_branding_left h3 {
+  font-weight: 600;
+  font-size: 15px;
+  letter-spacing: 0.1px;
+  margin-bottom: 20px;
+  color: limegreen;
+}
+
+.add-houses .form_add_house form > div.house_information_branding .house_information_branding_left p {
+  line-height: 19px;
+  margin-top: 13px;
+  color: rgba(71, 80, 94, 0.55);
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+.add-houses .form_add_house form > div.house_information_branding .house_information_branding_left p span {
+  margin-top: 15px;
+}
+
+.add-houses .form_add_house form > div.house_information_branding .house_information_branding_right {
+  background: #f5f6f7;
+  padding: 40px;
+}
+
+.add-houses .form_add_house form > div.house_information_branding .house_information_branding_right .information_branding_right_image {
+  padding: 20px;
+}
+
+.add-houses .form_add_house form > div.house_information_branding .house_information_branding_right .information_branding_right_video {
+  margin-bottom: 30px;
+}
+
+.add-houses .form_add_house form > div.house_information_branding .house_information_branding_right .information_branding_right_video .branding_video_container {
+  position: relative;
+  min-height: 250px;
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+  text-align: center;
+  border: 1px solid limegreen;
+  line-height: 250px;
+  background: #292c44;
+}
+
+.add-houses .form_add_house form > div.house_information_branding .house_information_branding_right .information_branding_right_video .branding_video_container a {
+  position: relative;
+  z-index: 1;
+  border-radius: 50%;
+  box-shadow: 0 10px 25px 0 rgba(33, 31, 94, 0.55);
+  -webkit-transition: all -3s ease;
+  transition: all -3s ease;
+  text-align: center;
+  line-height: 45px;
+}
+
+.add-houses .form_add_house form > div.house_information_branding .house_information_branding_right .information_branding_right_video .branding_video_container a i {
+  color: #fff;
+  margin-left: 5px;
+}
+
+.add-houses .form_add_house form > div.house_information_branding .house_information_branding_right .information_branding_right_video .branding_video_container a::before {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  display: block;
+  width: 60px;
+  height: 60px;
+  background: limegreen;
+  border-radius: 50%;
+  animation: pulse-border 1500ms ease-out infinite;
+}
+
+.add-houses .form_add_house form > div.house_information_branding .house_information_branding_right .information_branding_right_video .branding_video_container a::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  display: block;
+  width: 60px;
+  height: 60px;
+  background: limegreen;
+  border-radius: 50%;
+  -webkit-transition: all 200ms;
+  transition: all 200ms;
+}
+
+@keyframes pulse-border {
+  0% {
+    transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
+    opacity: 0;
+  }
+}
+
+.add-houses .form_add_house form > div.house_information_branding .house_information_branding_right .information_branding_right_video .branding_video_details {
+  margin: 20px 0;
+}
+
+.add-houses .form_add_house form > div.house_information_branding .house_information_branding_right .information_branding_right_video .branding_video_details .branding_video_details_upload {
+  margin-bottom: 10px;
+  text-align: center;
+  width: 150px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 20px 0;
+  font-size: 13px;
+  background: #fff;
+  color: limegreen;
+  cursor: pointer;
+  border: 1px solid limegreen;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.add-houses .form_add_house form > div.house_information_branding .house_information_branding_right .information_branding_right_video .branding_video_details .branding_video_details_upload span {
+  display: block;
+}
+
+.add-houses .form_add_house form > div.house_information_branding .house_information_branding_right .information_branding_right_video .branding_video_details .half_opaque {
+  opacity: 0.5;
+  text-align: left;
+}
+
+.add-houses .form_add_house form > div.house_information_branding .house_information_branding_right .information_branding_right_video .branding_video_details .half_opaque span,
+.add-houses .form_add_house form > div.house_information_branding .house_information_branding_right .information_branding_right_video .branding_video_details .half_opaque ul {
+  font-size: 13px;
+  list-style: outside;
+  list-style-position: inside;
+  padding-left: 10px;
+}
+
+.add-houses .form_add_house form > div.course_push_button {
+  padding-bottom: 30px;
+  padding: 0 0 60px;
+}
+
+.add-houses .form_add_house form > div.course_push_button input {
+  border-radius: 20px;
+  border: 1px solid limegreen;
+  color: limegreen;
+  font-size: 14px;
+}
+
+.add-houses .form_add_house form > div.course_push_button input:hover {
+  color: #fff;
+}

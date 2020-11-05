@@ -1,0 +1,215 @@
+@import './default';
+.table-seller {
+    clear: both;
+    box-shadow: 0px 30px 60px 0px rgba(0, 0, 0, 0.1);
+    padding: 20px 10px;
+    overflow-x: scroll;
+    background: #f1f0f0;
+    margin-top: 50px;
+    #DataTables_Table_0_wrapper {
+        div#DataTables_Table_0_filter {
+            float: none;
+            text-align: left;
+            overflow: hidden;
+            label {
+                position: relative;
+                width: 100%;
+                min-height: 40px;
+                input {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 99%;
+                    height: 100%;
+                    font-size: 14px;
+                    padding-left: 10px;
+                    border: 0;
+                    outline: 0;
+                    font-size: 14px;
+                }
+            }
+        }
+        .dataTables_length {
+            display: none;
+        }
+        .dataTables_info {
+            margin-top: 20px;
+            padding: 8px 10px;
+            min-width: 250px;
+            text-align: center;
+            border-radius: 10px 0;
+            color: limegreen !important;
+            font-size: 13px;
+        }
+        .dataTables_paginate {
+            min-width: 300px;
+            margin-top: 20px;
+            text-align: center;
+            padding: 0;
+            a {
+                &.paginate_button {
+                    border-radius: 50%;
+                    margin-right: 20px;
+                    border: 0 !important;
+                    width: 40px;
+                    height: 40px;
+                    text-align: center;
+                    line-height: 23px;
+                    color: #fff;
+                    &.current,
+                    &.current:hover {
+                        color: #fff !important;
+                        background: limegreen;
+                        margin-bottom: 5px;
+                    }
+                    &:hover,
+                    &:active {
+                        color: #fff !important;
+                        background: limegreen;
+                    }
+                    &.previous,
+                    &.next {
+                        cursor: pointer;
+                        background: transparent;
+                        border: 1px solid limegreen !important;
+                        border-radius: 10px 0;
+                        width: 100px;
+                        height: 40px;
+                        line-height: 20px;
+                        color: limegreen !important;
+                    }
+                    &.disabled {
+                        border: 0 !important;
+                        background: transparent !important;
+                        color: gray !important;
+                    }
+                }
+            }
+        }
+    }
+    table {
+        background: #f5f6f7;
+        margin-top: 20px;
+        thead {
+            tr {
+                text-align: center;
+                th {
+                    border-bottom: 0;
+                    font-size: 14px;
+                    border: 0;
+                    white-space: nowrap;
+                    &:first-child {
+                        text-align: left;
+                    }
+                }
+            }
+        }
+        tbody {
+            tr {
+                user-select: none;
+                background: #fff;
+                td {
+                    color: #000;
+                    font-size: 13px;
+                    line-height: 40px;
+                    text-align: center;
+                    align-content: center;
+                    white-space: nowrap;
+                    &:first-child {
+                        padding-left: 5px !important;
+                    }
+                    .actions {
+                        a {
+                            width: 35px;
+                            height: 35px;
+                            line-height: 35px;
+                            border-radius: 50%;
+                            margin-right: 5px;
+                            border: 1px solid limegreen;
+                            background: #fff;
+                            display: inline-block;
+                            font-weight: 500;
+                            cursor: pointer;
+                            font-size: 14px;
+                            color: limegreen;
+                            &:hover {
+                                background: limegreen;
+                                color: #fff;
+                            }
+                        }
+                    }
+                    img {
+                        width: 30px;
+                        height: 30px;
+                        background: limegreen;
+                        display: inline-block;
+                        margin: 0 5px;
+                        border-radius: 50%;
+                        border: 1px solid limegreen;
+                    }
+                }
+                &:hover {
+                    background: rgba(255, 255, 255, 0.4);
+                }
+            }
+            &.table_coupon_content {
+                tr {
+                    cursor: default !important;
+                }
+            }
+        }
+        &.dataTable.no-footer {
+            border: 0;
+        }
+    }
+}
+
+.modal {
+    .modal-content {
+        border-radius: 20px 0;
+        .modal-header {
+            border: 0;
+            h5 {
+                font-size: 16px;
+                color: limegreen;
+                margin-left: 15px;
+            }
+            button {
+                padding-top: 8px;
+                font-size: 30px;
+                opacity: 1;
+                color: limegreen;
+            }
+        }
+        .modal-body {
+            div {
+                font-size: 14px;
+                padding-left: 20px;
+                color: limegreen;
+            }
+        }
+        .modal-footer {
+            border: 0;
+            padding-bottom: 50px;
+            justify-content: center;
+            button {
+                text-align: center;
+                width: 150px;
+                height: 40px;
+                border-radius: 20px 0;
+                border-radius: 20px 0;
+                margin-right: 5px;
+                font-size: 14px;
+                background: #fff;
+                color: limegreen;
+                cursor: pointer;
+                border: 1px solid limegreen;
+                transition: all 0.3s ease-in-out;
+                &:hover {
+                    color: #fff;
+                    background: limegreen;
+                }
+            }
+        }
+    }
+}

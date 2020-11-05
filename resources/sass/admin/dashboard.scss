@@ -1,0 +1,220 @@
+@import './adminlte.min.css';
+@import './OverlayScrollbars.min.css';
+@import './default';
+.cars-section {
+    .car-body {
+        position: relative;
+        box-shadow: 2px 21px 10px 0px rgba(0, 0, 0, 0.1);
+        text-align: left;
+        margin-top: 40px;
+        transition: all .3s ease-in-out;
+        &:hover {
+            .body-content {
+                .body-content-title {
+                    .edit-cars {
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+        .body-image {
+            position: relative;
+            &:hover {
+                .owl-nav {
+                    opacity: 1;
+                }
+            }
+            .owl-item {
+                height: 170px;
+                img {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                }
+                &:after {
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    background: rgba(0, 0, 0, .3);
+                }
+            }
+            .owl-nav {
+                transition: all .2s ease-in-out;
+                position: absolute;
+                width: 100%;
+                top: 50%;
+                opacity: 0;
+                button {
+                    position: absolute;
+                    width: 30px;
+                    height: 30px;
+                    border-radius: 50%;
+                    background: rgba(0, 0, 0, .5);
+                    color: #fff;
+                    outline: 0;
+                    span {
+                        font-size: 20px;
+                        font-weight: 600;
+                        line-height: 25px;
+                    }
+                    &:first-child {
+                        left: 10px;
+                    }
+                    &:last-child {
+                        right: 10px;
+                    }
+                }
+            }
+        }
+        .body-price {
+            position: relative;
+            z-index: 1;
+            padding-left: 20px;
+            color: #fff;
+            font-size: 14px;
+            opacity: 0.8;
+            margin-top: -28px;
+        }
+        .body-content {
+            background: #fff;
+            padding: 20px 10px 0;
+            .body-content-title {
+                text-overflow: ellipsis;
+                font-size: 13px;
+                color: limegreen;
+                .edit-cars {
+                    float: right;
+                    text-align: center;
+                    transition: all .3s ease-in-out;
+                    opacity: 0;
+                    a {
+                        width: 35px;
+                        height: 35px;
+                        line-height: 35px;
+                        border-radius: 50%;
+                        margin-right: 5px;
+                        border: 1px solid limegreen;
+                        background: #fff;
+                        display: inline-block;
+                        font-weight: 500;
+                        cursor: pointer;
+                        font-size: 14px;
+                        color: limegreen;
+                        &:hover {
+                            color: #fff;
+                            background: limegreen;
+                        }
+                    }
+                }
+                a {
+                    font-size: 14px;
+                    color: lightgreen;
+                }
+            }
+            .body-content-location {
+                font-size: 12px;
+                font-weight: 500px;
+                opacity: .8;
+                margin-top: 14px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                i {
+                    font-size: 13px;
+                    margin-right: 3px;
+                }
+            }
+            .body-content-details {
+                margin-top: 25px;
+                .info {
+                    border-right: 1px solid gray;
+                    margin: 10px 0;
+                    font-size: 12px;
+                    opacity: .8;
+                }
+            }
+        }
+    }
+}
+
+.pagination {
+    padding: 40px;
+    nav {
+        margin: auto;
+        ul {
+            li {
+                margin-right: 3px;
+                text-align: center;
+                &.active {
+                    span {
+                        background-color: limegreen !important;
+                        border-color: limegreen !important;
+                    }
+                }
+                span,
+                a {
+                    text-align: center;
+                    border-radius: 50%;
+                    width: 36px;
+                    font-size: 14px;
+                    color: limegreen;
+                }
+            }
+        }
+    }
+}
+
+.modal {
+    .modal-content {
+        border-radius: 20px 0;
+        .modal-header {
+            border: 0;
+            h5 {
+                font-size: 16px;
+                color: limegreen;
+                margin-left: 15px;
+            }
+            button {
+                padding-top: 8px;
+                font-size: 30px;
+                opacity: 1;
+                color: limegreen;
+            }
+        }
+        .modal-body {
+            div {
+                font-size: 14px;
+                padding-left: 20px;
+                color: limegreen;
+            }
+        }
+        .modal-footer {
+            border: 0;
+            padding-bottom: 50px;
+            justify-content: center;
+            button {
+                text-align: center;
+                width: 150px;
+                height: 40px;
+                border-radius: 20px 0;
+                border-radius: 20px 0;
+                margin-right: 5px;
+                font-size: 14px;
+                background: #fff;
+                color: limegreen;
+                cursor: pointer;
+                border: 1px solid limegreen;
+                transition: all 0.3s ease-in-out;
+                &:hover {
+                    color: #fff;
+                    background: limegreen;
+                }
+            }
+        }
+    }
+}

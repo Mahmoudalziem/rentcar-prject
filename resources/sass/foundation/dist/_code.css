@@ -1,0 +1,24 @@
+a,
+ul,
+div {
+  list-style: none;
+  text-decoration: none;
+}
+
+a:hover,
+ul:hover,
+div:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+.btn {
+  margin-bottom: 25px;
+  font-weight: 600;
+  color: #fff;
+  padding-left: 20px;
+  white-space: normal;
+  opacity: .8;
+  font-size: 14px;
+  background: #3b3e79;
+}

@@ -1,0 +1,327 @@
+.page_banner {
+  position: relative;
+  width: 100%;
+  height: 350px;
+  background-size: cover;
+  color: #fff;
+  margin-top: 60px;
+  overflow: hidden;
+}
+
+.page_banner img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background-position: center;
+  background-size: cover;
+}
+
+.page_banner::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.page_banner .page-content {
+  position: relative;
+  z-index: 1;
+  margin-top: 150px;
+}
+
+.page_banner .page-content h3 {
+  text-transform: capitalize;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.page_banner .page-content ul {
+  margin-top: 20px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.page_banner .page-content ul li {
+  display: inline-block;
+}
+
+.page_banner .page-content ul li a {
+  color: #fff;
+  padding-right: 10px;
+  opacity: 0.7;
+}
+
+.page_banner .page-content ul li a:hover {
+  opacity: 1;
+}
+
+.cars-container {
+  padding: 100px 0 20px;
+}
+
+.cars-container .cars-container-filter {
+  background: #fff;
+  box-shadow: 0px 21px 10px 0px rgba(0, 0, 0, 0.1);
+  padding-bottom: 50px;
+}
+
+.cars-container .cars-container-filter .search_car {
+  position: relative;
+  margin: auto;
+}
+
+.cars-container .cars-container-filter .search_car input {
+  border: 1px solid limegreen;
+  min-height: 40px;
+  height: 100%;
+  width: 84%;
+  padding-left: 10px;
+  font-size: 12px;
+}
+
+.cars-container .cars-container-filter .search_car i {
+  position: absolute;
+  opacity: 0.8;
+  font-size: 15px;
+  cursor: pointer;
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  line-height: 40px;
+  background: limegreen;
+  border: 1px solid limegreen;
+  color: #fff;
+}
+
+.cars-container .cars-container-filter .search_car i:hover {
+  color: limegreen;
+  background: #fff;
+}
+
+.cars-container .cars-container-filter form {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.cars-container .cars-container-filter form label {
+  display: block;
+  padding: 10px 5px;
+  background: limegreen;
+  opacity: 0.8;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.cars-container .cars-container-filter form label span:last-child {
+  float: right;
+  margin-right: 10px;
+}
+
+.cars-container .cars-container-filter form div {
+  padding: 0 8px;
+}
+
+.cars-container .cars-container-filter form div select {
+  margin: 15px 0;
+  width: 100%;
+  padding: 10px 5px;
+  background-color: white;
+  color: limegreen;
+  font-size: 13px;
+  border-radius: 20px;
+  border: 1px solid limegreen;
+  outline: 0;
+}
+
+.cars-container .cars-container-filter form div .body-start {
+  position: relative;
+  display: flex;
+  padding: 15px 0;
+}
+
+.cars-container .cars-container-filter form div .body-start div {
+  position: relative;
+}
+
+.cars-container .cars-container-filter form div .body-start div span {
+  position: absolute;
+  top: 8px;
+  left: 18px;
+  opacity: 0.8;
+  font-size: 11px;
+  color: #1a1a1a;
+}
+
+.cars-container .cars-container-filter form div .body-start div input {
+  outline: 0;
+  color: #000;
+  border: 1px solid limegreen;
+  background-color: white;
+  font-size: 12px;
+  border-width: 1px;
+  border-radius: 20px;
+  padding: 8px;
+  padding-left: 35px;
+  width: 104px;
+  height: 32px;
+}
+
+.cars-container .cars-container-filter form div .body-start div input.sqft {
+  padding-left: 45px;
+}
+
+.cars-container .cars-container-filter form input[type=submit] {
+  border: 1px solid limegreen;
+  width: 150px;
+  margin: auto;
+  font-size: 13px;
+  margin-top: 50px;
+}
+
+.cars-container .cars-container-content .car-body {
+  position: relative;
+  box-shadow: 2px 21px 10px 0px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.cars-container .cars-container-content .car-body .body-image {
+  position: relative;
+}
+
+.cars-container .cars-container-content .car-body .body-image:hover .owl-nav {
+  opacity: 1;
+}
+
+.cars-container .cars-container-content .car-body .body-image .owl-item {
+  height: 170px;
+}
+
+.cars-container .cars-container-content .car-body .body-image .owl-item img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.cars-container .cars-container-content .car-body .body-image .owl-item:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.cars-container .cars-container-content .car-body .body-image .owl-nav {
+  transition: all 0.2s ease-in-out;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  opacity: 0;
+}
+
+.cars-container .cars-container-content .car-body .body-image .owl-nav button {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  outline: 0;
+}
+
+.cars-container .cars-container-content .car-body .body-image .owl-nav button span {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 25px;
+}
+
+.cars-container .cars-container-content .car-body .body-image .owl-nav button:first-child {
+  left: 10px;
+}
+
+.cars-container .cars-container-content .car-body .body-image .owl-nav button:last-child {
+  right: 10px;
+}
+
+.cars-container .cars-container-content .car-body .body-price {
+  position: absolute;
+  top: 46%;
+  z-index: 1;
+  padding-left: 20px;
+  color: #fff;
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.cars-container .cars-container-content .car-body .body-content {
+  background: #fff;
+  padding: 20px 10px 0;
+}
+
+.cars-container .cars-container-content .car-body .body-content .body-content-title a {
+  font-size: 14px;
+  color: lightgreen;
+}
+
+.cars-container .cars-container-content .car-body .body-content .body-content-location {
+  font-size: 12px;
+  font-weight: 500px;
+  opacity: 0.8;
+  margin-top: 5px;
+}
+
+.cars-container .cars-container-content .car-body .body-content .body-content-location i {
+  font-size: 13px;
+  margin-right: 3px;
+}
+
+.cars-container .cars-container-content .car-body .body-content .body-content-details {
+  margin-top: 25px;
+}
+
+.cars-container .cars-container-content .car-body .body-content .body-content-details .info {
+  border-right: 1px solid gray;
+  margin: 10px 0;
+  font-size: 12px;
+  opacity: 0.8;
+}
+
+.cars-container .cars-container-content .pagination {
+  padding: 40px;
+}
+
+.cars-container .cars-container-content .pagination nav {
+  margin: auto;
+}
+
+.cars-container .cars-container-content .pagination nav ul li {
+  margin-right: 3px;
+  text-align: center;
+}
+
+.cars-container .cars-container-content .pagination nav ul li.active span {
+  background-color: limegreen !important;
+  border-color: limegreen !important;
+  color: #fff !important;
+}
+
+.cars-container .cars-container-content .pagination nav ul li span,
+.cars-container .cars-container-content .pagination nav ul li a {
+  text-align: center;
+  border-radius: 50%;
+  width: 36px;
+  font-size: 14px;
+  color: limegreen;
+}
+

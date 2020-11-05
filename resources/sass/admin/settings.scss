@@ -1,0 +1,60 @@
+@import './adminlte.min.css';
+@import './OverlayScrollbars.min.css';
+
+@import './default';
+
+.settings-container{
+    margin-top:60px;
+    .form_change_password {
+        width: 100%;
+        label {
+            margin-top: 25px;
+            color: limegreen;
+            font-size: 15px;
+        }
+        .group_input {
+            position: relative;
+            margin-top: 10px;
+            width: 100%;
+            input {
+                height: 40px;
+                width: 100%;
+                border: 1px solid limegreen;
+                font-size: 14px;
+                padding-left: 60px;
+            }
+            i {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 40px;
+                height: 100%;
+                text-align: center;
+                line-height: 40px;
+                background: limegreen;
+                color: #fff;
+            }
+        }
+        .form_submit_button {
+            align-items: center;
+            text-align: center;
+            margin-top: 50px;
+            button {
+                padding: 5px 25px;
+                border-radius: 20px ;
+                outline: 0;
+                display: inline-block;
+                color: limegreen;
+                font-size: 15px;
+                font-weight: 600;
+                border: 1px solid limegreen;
+                -webkit-transition: all .3s ease;
+                transition: all .3s ease;
+                cursor: pointer;
+                &:hover {
+                    color: #fff;
+                }
+            }
+        }
+    }
+}

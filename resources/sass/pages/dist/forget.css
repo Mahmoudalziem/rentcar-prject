@@ -1,0 +1,171 @@
+.forget_section {
+  background: #fff;
+  width: 100%;
+  height: auto;
+  padding: 63px;
+  background-attachment: fixed;
+}
+
+.forget_section .forget_content {
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+  background: #fff;
+}
+
+.forget_section .forget_content .forget_page {
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.forget_section .forget_content .forget_page::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background: rgba(125, 214, 121, 0.4);
+}
+
+.forget_section .forget_content .forget_page > img {
+  opacity: 1;
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-blend-mode: screen;
+  background-position: -2%;
+}
+
+.forget_section .forget_content .forget_page svg {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+}
+
+.forget_section .forget_content .forget_page svg.first {
+  right: 0;
+  top: -8px;
+}
+
+.forget_section .forget_content .forget_page svg.second {
+  transform: rotate(-180deg);
+  bottom: -6px;
+}
+
+.forget_section .forget_content .forget_details {
+  padding: 70px;
+}
+
+.forget_section .forget_content .forget_details .login_details_signup {
+  text-align: center;
+  font-size: 16px;
+  align-items: center;
+  margin: auto;
+}
+
+.forget_section .forget_content .forget_details .login_details_signup .site_logo {
+  position: relative;
+  width: 80px;
+  height: 60px;
+  display: block;
+  margin: auto;
+}
+
+.forget_section .forget_content .forget_details .login_details_signup .site_logo a img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.forget_section .forget_content .forget_details .forget_head {
+  margin-top: 40px;
+}
+
+.forget_section .forget_content .forget_details .forget_head h3 {
+  font-size: 20px;
+  color: limegreen;
+}
+
+.forget_section .forget_content .forget_details .forget_head p {
+  font-size: 13px;
+  line-height: 23px;
+  opacity: .7;
+}
+
+.forget_section .forget_content .forget_details form {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.forget_section .forget_content .forget_details form .group_input {
+  position: relative;
+  margin-top: 25px;
+  width: 100%;
+}
+
+.forget_section .forget_content .forget_details form .group_input input {
+  height: 40px;
+  width: 100%;
+  border: 1px solid limegreen;
+  font-size: 14px;
+  padding-left: 60px;
+}
+
+.forget_section .forget_content .forget_details form .group_input i {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40px;
+  height: 100%;
+  text-align: center;
+  line-height: 40px;
+  background: limegreen;
+  color: #fff;
+}
+
+.forget_section .forget_content .forget_details form .group_forget_remember {
+  width: 100%;
+  margin-top: 30px;
+  font-size: 15px;
+  opacity: .8;
+}
+
+.forget_section .forget_content .forget_details form .group_forget_remember div:last-child {
+  float: right;
+}
+
+.forget_section .forget_content .forget_details form .group_forget_remember div:last-child a {
+  color: limegreen;
+}
+
+.forget_section .forget_content .forget_details form .form_submit_button {
+  align-items: center;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.forget_section .forget_content .forget_details form .form_submit_button button {
+  padding: 5px 25px;
+  border-radius: 20px 0;
+  outline: 0;
+  display: inline-block;
+  color: limegreen;
+  font-size: 15px;
+  font-weight: 600;
+  border: 1px solid limegreen;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  cursor: pointer;
+}
+
+.forget_section .forget_content .forget_details form .form_submit_button button:hover {
+  color: #fff;
+}

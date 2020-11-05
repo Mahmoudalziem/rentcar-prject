@@ -1,0 +1,59 @@
+li::after {
+  display: none !important;
+}
+
+.wrapper .main-header {
+  background: limegreen !important;
+}
+
+.wrapper .main-header .navbar-nav li a {
+  font-size: 14px;
+  color: #fff !important;
+}
+
+.wrapper .main-header .navbar-nav li ul {
+  top: 45px;
+}
+
+.wrapper .main-header .navbar-nav li ul li {
+  padding: 20px !important;
+}
+
+.wrapper .main-header .navbar-nav li ul li a {
+  font-size: 13px;
+  border-radius: 20px;
+  color: limegreen !important;
+}
+
+.wrapper .main-header .navbar-nav li ul li a:hover {
+  background-color: limegreen !important;
+  color: #fff !important;
+}
+
+.wrapper aside.main-sidebar {
+  position: fixed !important;
+}
+
+.wrapper aside.main-sidebar .brand-link img {
+  width: 34px !important;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.wrapper aside.main-sidebar .brand-link span {
+  font-size: 18px;
+}
+
+.wrapper aside.main-sidebar .sidebar ul {
+  text-transform: unset !important;
+}
+
+.wrapper aside.main-sidebar .sidebar ul li.nav-header {
+  text-transform: capitalize !important;
+}
+
+.wrapper aside.main-sidebar .sidebar ul li.nav-item a {
+  text-transform: capitalize !important;
+  border-radius: 20px;
+  margin-left: 5px;
+}

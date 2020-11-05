@@ -1,0 +1,451 @@
+.profile_container {
+  padding: 75px 0 60px;
+  min-height: 500px;
+  font-size: 14px;
+}
+
+.profile_container .profile_container_content_left {
+  height: 100%;
+  color: #fff;
+  box-shadow: 0px 30px 60px 0px rgba(0, 0, 0, 0.1);
+  transform-origin: left;
+  width: 20%;
+  background-color: #fff;
+  height: 100%;
+  position: fixed;
+  overflow: hidden;
+  overflow-y: auto;
+  transition: transform 150ms ease-in-out;
+}
+
+.profile_container .profile_container_content_left .profile_content_image {
+  text-align: center;
+  position: relative;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.profile_container .profile_container_content_left .profile_content_image .profile_content_image_background {
+  position: relative;
+  overflow: hidden;
+  background: limegreen;
+  min-height: 180px;
+}
+
+.profile_container .profile_container_content_left .profile_content_image .profile_content_image_background::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(125, 214, 121, 0.4);
+}
+
+.profile_container .profile_container_content_left .profile_content_image .profile_content_image_background img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-position: center;
+  background-size: cover;
+}
+
+.profile_container .profile_container_content_left .profile_content_image .profile_content_image_avater {
+  margin-top: -60px;
+  text-align: center;
+}
+
+.profile_container .profile_container_content_left .profile_content_image .profile_content_image_avater .profile_content_image_avater_content {
+  overflow: hidden;
+  position: relative;
+  margin: auto;
+  width: 80px;
+  height: 80px;
+  border: 2px solid limegreen;
+  border-radius: 50%;
+}
+
+.profile_container .profile_container_content_left .profile_content_image .profile_content_image_avater .profile_content_image_avater_content:hover span {
+  height: 50%;
+}
+
+.profile_container .profile_container_content_left .profile_content_image .profile_content_image_avater .profile_content_image_avater_content img {
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.profile_container .profile_container_content_left .profile_content_image .profile_content_image_avater .profile_content_image_avater_content span {
+  cursor: pointer;
+  position: absolute;
+  bottom: 0;
+  height: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: block;
+  width: 100%;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.profile_container .profile_container_content_left .profile_content_image .profile_content_image_avater .profile_content_image_avater_content span i {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.profile_container .profile_container_content_left .user_name {
+  text-align: center;
+  background: #f1f0f0;
+  margin-top: -20px;
+  padding: 25px 0 15px;
+  border: 1px dotted limegreen;
+  border-left: 0;
+  border-right: 0;
+  color: limegreen;
+}
+
+.profile_container .profile_container_content_left ul {
+  border: 0;
+  margin-top: 20px;
+}
+
+.profile_container .profile_container_content_left ul li {
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.profile_container .profile_container_content_left ul li a {
+  color: limegreen;
+  border: 0;
+  padding: 10px 20px;
+  border-radius: 0;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  font-size: 13px;
+}
+
+.profile_container .profile_container_content_left ul li a.active {
+  background: limegreen;
+  color: #fff;
+  padding-left: 30px;
+}
+
+.profile_container .items_responsive_buttons {
+  margin-top: 60px;
+}
+
+.profile_container .items_responsive_buttons ul {
+  justify-content: center;
+  border: 0;
+}
+
+.profile_container .items_responsive_buttons ul li {
+  border: 1px solid limegreen;
+  text-align: center;
+  background: limegreen;
+  padding: 0;
+}
+
+.profile_container .items_responsive_buttons ul li a {
+  border: 0;
+  border-radius: 0;
+  font-size: 14px;
+  color: #fff;
+}
+
+.profile_container .items_responsive_buttons ul li a.active {
+  color: limegreen !important;
+}
+
+.profile_container .profile_container_content_right {
+  padding: 80px 0;
+}
+
+.profile_container .profile_container_content_right .search_course {
+  position: relative;
+}
+
+.profile_container .profile_container_content_right .search_course i {
+  position: absolute;
+  color: limegreen;
+  opacity: .8;
+  font-size: 15px;
+  cursor: pointer;
+  display: inline-block;
+  min-height: 40px;
+  min-width: 40px;
+  text-align: center;
+  line-height: 40px;
+  border-right: 1px solid limegreen;
+}
+
+.profile_container .profile_container_content_right .search_course input {
+  border: 1px solid limegreen;
+  min-height: 40px;
+  width: 100%;
+  height: 100%;
+  padding-left: 45px;
+  font-size: 14px;
+}
+
+.profile_container .profile_container_content_right .form_signup {
+  width: 100%;
+}
+
+.profile_container .profile_container_content_right .form_signup label {
+  margin-top: 25px;
+  color: limegreen;
+  font-size: 15px;
+}
+
+.profile_container .profile_container_content_right .form_signup .group_input {
+  position: relative;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.course_show_tab_body .user_course_container .search_course .search_course_content {
+  position: relative;
+}
+
+.course_show_tab_body .user_course_container .car-body {
+  position: relative;
+  box-shadow: 2px 21px 10px 0px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  margin-top: 40px;
+}
+
+.course_show_tab_body .user_course_container .car-body .body-image {
+  position: relative;
+}
+
+.course_show_tab_body .user_course_container .car-body .body-image:hover .owl-nav {
+  opacity: 1;
+}
+
+.course_show_tab_body .user_course_container .car-body .body-image .owl-item {
+  height: 170px;
+}
+
+.course_show_tab_body .user_course_container .car-body .body-image .owl-item img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.course_show_tab_body .user_course_container .car-body .body-image .owl-item:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.course_show_tab_body .user_course_container .car-body .body-image .owl-nav {
+  transition: all .2s ease-in-out;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  opacity: 0;
+}
+
+.course_show_tab_body .user_course_container .car-body .body-image .owl-nav button {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  outline: 0;
+}
+
+.course_show_tab_body .user_course_container .car-body .body-image .owl-nav button span {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 25px;
+}
+
+.course_show_tab_body .user_course_container .car-body .body-image .owl-nav button:first-child {
+  left: 10px;
+}
+
+.course_show_tab_body .user_course_container .car-body .body-image .owl-nav button:last-child {
+  right: 10px;
+}
+
+.course_show_tab_body .user_course_container .car-body .body-price {
+  position: absolute;
+  top: 46%;
+  z-index: 1;
+  padding-left: 20px;
+  color: #fff;
+  font-size: 14px;
+  opacity: .8;
+}
+
+.course_show_tab_body .user_course_container .car-body .body-content {
+  background: #fff;
+  padding: 20px 10px 0;
+}
+
+.course_show_tab_body .user_course_container .car-body .body-content .body-content-title a {
+  font-size: 14px;
+  color: lightgreen;
+}
+
+.course_show_tab_body .user_course_container .car-body .body-content .body-content-location {
+  font-size: 12px;
+  font-weight: 500px;
+  opacity: .8;
+  margin-top: 5px;
+}
+
+.course_show_tab_body .user_course_container .car-body .body-content .body-content-location i {
+  font-size: 13px;
+  margin-right: 3px;
+}
+
+.course_show_tab_body .user_course_container .car-body .body-content .body-content-details {
+  margin-top: 25px;
+}
+
+.course_show_tab_body .user_course_container .car-body .body-content .body-content-details .info {
+  border-right: 1px solid gray;
+  margin: 10px 0;
+  font-size: 12px;
+  opacity: .8;
+}
+
+.course_show_tab_body .form_signup {
+  width: 100%;
+}
+
+.course_show_tab_body .form_signup label {
+  margin-top: 25px;
+  color: #7c3390;
+  font-size: 15px;
+}
+
+.course_show_tab_body .form_signup .group_input {
+  position: relative;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.course_show_tab_body .form_signup .group_input input {
+  height: 40px;
+  width: 100%;
+  border: 1px solid limegreen;
+  font-size: 14px;
+  padding-left: 60px;
+}
+
+.course_show_tab_body .form_signup .group_input i {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40px;
+  height: 100%;
+  text-align: center;
+  line-height: 40px;
+  background: limegreen;
+  color: #fff;
+}
+
+.course_show_tab_body .form_signup .form_submit_button {
+  align-items: center;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.course_show_tab_body .form_signup .form_submit_button button {
+  padding: 5px 25px;
+  border-radius: 20px 0;
+  outline: 0;
+  display: inline-block;
+  color: limegreen;
+  font-size: 15px;
+  font-weight: 600;
+  border: 1px solid limegreen;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  cursor: pointer;
+}
+
+.course_show_tab_body .form_signup .form_submit_button button:hover {
+  color: #fff;
+}
+
+.modal .modal-content {
+  border-radius: 20px 0;
+}
+
+.modal .modal-content .modal-header {
+  border: 0;
+}
+
+.modal .modal-content .modal-header h5 {
+  font-size: 16px;
+  color: limegreen;
+  margin-left: 15px;
+}
+
+.modal .modal-content .modal-header button {
+  padding-top: 8px;
+  font-size: 30px;
+  opacity: 1;
+  color: limegreen;
+}
+
+.modal .modal-content .modal-body img {
+  width: auto !important;
+  height: auto !important;
+}
+
+.modal .modal-content .modal-footer {
+  border: 0;
+  padding-bottom: 50px;
+  justify-content: center;
+}
+
+.modal .modal-content .modal-footer button {
+  text-align: center;
+  width: 150px;
+  height: 40px;
+  border-radius: 20px 0;
+  margin-right: 5px;
+  font-size: 14px;
+  background: #fff;
+  color: limegreen;
+  cursor: pointer;
+  border: 1px solid limegreen;
+  transition: all .3s ease-in-out;
+}
+
+.modal .modal-content .modal-footer button:hover {
+  background: limegreen;
+  color: #fff;
+}
+
+.modal .modal-content .modal-footer button:last-child {
+  background: limegreen;
+  color: #fff;
+}
+
+.modal .modal-content .modal-footer button:last-child:hover {
+  background: #fff;
+  color: limegreen;
+}
