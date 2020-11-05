@@ -23,7 +23,7 @@ php artisan serve
 
 //// Screens 
 
-![alt tag](https://imgur.com/I1TdR7N?raw=true)
+![alt tag](https://imgur.com/I1TdR7N)
 
 ![Alt text](https://imgur.com/I1TdR7N?raw=true "Title")
 
