@@ -24,9 +24,7 @@ php artisan serve
 //// Screens 
 
 
-<p align="center">
-    ![Alt text](https://imgur.com/I1TdR7N?raw=true "Title")
-</p>
+![Alt text](https://imgur.com/I1TdR7N?raw=true "Title")
 
 <p align="center"><img src="https://imgur.com/CS0oX2N"></p>
 
