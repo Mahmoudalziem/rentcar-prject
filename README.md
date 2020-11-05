@@ -23,9 +23,7 @@ php artisan serve
 
 //// Screens 
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="I1TdR7N" data-context="false" ><a href="//imgur.com/I1TdR7N"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
-
-<img src="https://imgur.com/I1TdR7N" />
+<img src="https://imgur.com/I1TdR7N.jpg" />
 
 ![Alt text](https://imgur.com/I1TdR7N?raw=true "Title")
 
